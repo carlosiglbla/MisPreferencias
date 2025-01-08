@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MisPreferencias</string>
+    <string-array name="TipoEmpleado">
+        <item>Profesor</item>
+        <item>Ordenanza</item>
+        <item>Limpieza</item>
+        <item>Otro</item>
+    </string-array>
+</resources>
