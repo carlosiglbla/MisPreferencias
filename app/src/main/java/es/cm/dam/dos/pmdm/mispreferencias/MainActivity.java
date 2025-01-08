@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
         var preferences = PreferenceManager.getDefaultSharedPreferences(this).getAll();
         preferences.forEach((key, value) ->{
-            Log.d("Preferences", String.format("%s -> %s", key, value));
+            Log.d("MIS PREFERENCIAS", String.format("%s -> %s", key, value));
         });
 
     }
