@@ -25,7 +25,7 @@ public class MainActivity2 extends AppCompatActivity {
         });
         SharedPreferences misPreferencias= PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         misPreferencias.registerOnSharedPreferenceChangeListener((sharedPreferences, key) -> {
-            if ("feeback".equals(key) || "tipoEmpleado".equals(key)) {
+            if ("feedback".equals(key) || "tipoEmpleado".equals(key)) {
                 Toast.makeText(this, "Preferencia " + key + " actualizada: " + sharedPreferences.getString(key, ""), Toast.LENGTH_SHORT).show();
             }else {
                 Toast.makeText(this, "Preferencia " + key + " actualizada: " + sharedPreferences.getBoolean(key, false), Toast.LENGTH_SHORT).show();
